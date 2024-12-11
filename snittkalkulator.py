@@ -95,5 +95,5 @@ result_table = [
 ]
 
 # Printe tabellen til terminal
-print(f"Hei Sebastian E Burmo, Dette er ditt karaktersnitt, basert på karakterinfo")
+print(f"Hei Sebastian , Dette er ditt karaktersnitt, basert på karakterinfo")
 print(tabulate(result_table, headers=["Kategori", "Verdi"], tablefmt="fancy_grid"))
