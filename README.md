@@ -1,5 +1,6 @@
 # Kalkulator for å beregne karaktersnitt / GPA ECTS credits calculator 
 
+
 ## Norsk
 Dette python programmet kan du bruke til å beregne din snittkarakter, karaktersnitt med desimal samt se antall studiepoeng
 Kalkulatoren baserer seg på NTNU og FS sitt beregningssytem: https://i.ntnu.no/wiki/-/wiki/Norsk/FS+-+Beregne+snittkarakter
@@ -80,8 +81,7 @@ For courses with a letter grade:
 ('FAGXXXX', 7.5, 'A')
 ```
 
-For courses without a grade (Pass / Fail):
+For courses without a letter grade (Pass / Fail):
 ```py
 ('FAGXXXX', 7.5, '')
 ```
-
